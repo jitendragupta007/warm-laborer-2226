@@ -1,0 +1,68 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+#join{
+
+width:55vw;
+height:100px;
+border-radius: 10px;
+margin:auto;
+margin-top:200px;
+margin-bottom:20px;
+background-color: #ffdc93;
+box-shadow: 0 1px 4px 0 rgb(0 0 0 / 20%);
+
+}
+
+#join1{
+    width:100%;
+    height:70%;
+    border-bottom: 2px solid rgba(143, 80, 25, 0.608);
+    display:flex;
+    justify-content: space-between;
+    padding:25px;
+
+   
+}
+
+#join11, #join12{
+width:8vw;
+height:100%;
+display:flex;
+align-items: center;
+cursor: pointer;
+text-decoration: none;
+
+}
+
+#join11 img{
+
+    width:100%;
+}
+
+#join12 button{
+    background-color:rgb(237, 32, 32);
+    width:100%;
+    height:30px;
+    border:0px;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+
+#join2 p{
+
+    width:100%;
+    margin:auto;
+    font-size: 1vw;
+    font-family:sans-serif;
+    color: rgba(0, 0, 0, 0.681);
+    font-weight:700;
+}
+

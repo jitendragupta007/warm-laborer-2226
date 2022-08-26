@@ -1,7 +1,7 @@
 category_data=[
 {
-img='https://dao54xqhg9jfa.cloudfront.net/OMS-Category/…6148-d407-95522fa17a28/original/Todays-deal21.png',
-category="Today's Deals",
+img:'https://dao54xqhg9jfa.cloudfront.net/OMS-Category/539819fa-f8f5-6148-d407-95522fa17a28/original/Todays-deal21.png',
+category:"Today's Deal"
 },
 
 {
@@ -11,48 +11,50 @@ category:'Chicken',
 
 
 {
-    img:,
-    category:,
+    img:'https://dao54xqhg9jfa.cloudfront.net/OMS-Category/46494180-ff34-2236-4240-da12222c4d23/original/Fish___Seafood.png',
+    category:'Fish & Seafood',
     },
 
     {
-        img:,
-        category:,
+        img:'https://dao54xqhg9jfa.cloudfront.net/OMS-Category/952cc910-319c-0b5d-fa34-373f05f0917a/original/Mutton.png',
+        category:'Mutton',
         },
         {
-            img:,
-            category:,
+            img:'https://dao54xqhg9jfa.cloudfront.net/OMS-Category/0a8c4f08-15e7-12e5-a696-286cddadf373/original/RTC_(2).png',
+            category:'Ready to Cook',
             },
             {
-                img:,
-                category:,
+                img:'https://dao54xqhg9jfa.cloudfront.net/OMS-Category/b528b5d9-aae1-8814-99d5-8642e2ee3676/original/Prawns.png',
+                category:'Prawns',
                 },
                 {
-                    img:,
-                    category:,
+                    img:'https://dao54xqhg9jfa.cloudfront.net/OMS-Category/d08157a7-8828-4978-eb3f-3408cfe7d1f9/original/Venus_(1).png',
+                    category:'Cold Cuts',
                     },
                     {
-                        img:,
-                        category:,
+                        img:'https://dao54xqhg9jfa.cloudfront.net/OMS-Category/066b2145-5678-c1c6-5a05-5e5e53840101/original/Continental-egg-spread.png',
+                        category:'Spreads',
                         },
                         {
-                            img:,
-                            category:,
+                            img:'https://dao54xqhg9jfa.cloudfront.net/OMS-Category/54771c04-5aae-094d-8739-b22d09ab284e/original/Eggs.png',
+                            category:'Eggs',
                             },
                             {
-                                img:,
-                                category:,
+                                img:'https://dao54xqhg9jfa.cloudfront.net/OMS-Category/8f6c3a69-7867-05d5-9367-ed091bdf3c61/original/hyd-chicken.png',
+                                category:'Biryani & Kebab',
                                 },
 
                                 {
-                                    img:,
-                                    category:,
+                                    img:'https://dao54xqhg9jfa.cloudfront.net/OMS-Category/b8169e6d-59ae-ba6f-f839-ec0883a9742e/original/Combo2.png',
+                                    category:'Combos',
                                     },
                                     {
-                                        img:,
-                                        category:,
+                                        img:'https://dao54xqhg9jfa.cloudfront.net/OMS-Category/804e2c47-aa87-e548-8d19-789b1fccb8bb/original/GFD.png',
+                                        category:'Featured Collection',
                                         },
 
 
 
 ]
+
+console.log(category_data);
