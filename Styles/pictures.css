@@ -1,0 +1,62 @@
+.pictures{
+    width:70vw;
+    height:auto;
+    margin:auto;
+    margin-bottom:80px;
+    color:#1c1c1c;
+    
+}
+
+.pictures h5{
+
+    font-size: 20px;
+    opacity:.9;
+
+}
+
+.pictures1{
+    width:70vw;
+    height:auto;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    margin-top:10px;
+
+}
+
+.pictures1 div{
+    width:100%;
+    height:auto;
+}
+
+.pictures1 img{
+width:100%;
+
+}
+
+.pictures1 p{
+
+    font-size:12px;
+    font-weight: bolder;
+    opacity:.9
+}
+
+
+
+
+
+
+
+#banner2{
+
+    width:70vw;
+    margin:auto;
+    margin-bottom:80px;
+}
+
+#banner2 img{
+
+    width:100%;
+    height:auto;
+}

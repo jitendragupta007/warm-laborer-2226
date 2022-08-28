@@ -1,0 +1,145 @@
+*{
+padding:0px;
+margin:0px;
+box-sizing: border-box;
+font-family: sans-serif;
+
+}
+
+.product,.product2{
+width:800px;
+height:40vh;
+margin-left:150px;
+margin-bottom:50vh;
+position:relative;
+
+}
+
+
+
+
+.product-container p,h6{
+    font-size: 10px;
+    
+    }
+    .product-card{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        width:350px;
+    }
+    
+
+.product-container{
+    width:80vw;
+    height:40vh;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:15px;
+    margin-bottom:200px;
+    position: relative;
+    margin-top:10px;
+}
+.product-thumb{
+
+    width:100%;
+}
+.product-title{
+
+    font-size: 14px;
+    padding:5px;
+    display:grid;
+    position: relative;
+    margin-bottom:30px;
+   
+    
+}
+
+.product-title h6{
+
+    font-size: 16px;
+    margin-bottom:30px;
+}
+.product-title>p{
+    position:absolute;
+    margin-top: 40px;
+    margin-left:-15px;
+    opacity:0.6;
+
+}
+
+.product-qty{
+display:flex;
+margin-left:-15px;
+font-weight: bolder;
+margin-top:-20px;
+
+}
+
+.price-cart{
+display:flex;
+color:rgb(199, 30, 30);
+font-weight:bolder;
+margin-top:15px;
+align-items: center;
+margin-bottom:10px;
+}
+
+.price-cart p{
+    font-size: 16px;
+    margin-left:-5px;
+
+}
+
+.price-cart button{
+    background-color: rgb(199, 30, 30);
+    border:0px;
+    color:white;
+    padding:5px;
+    border-radius: 5px;
+    height:25px;
+    margin-left:120px;
+    font-size: 1vw;
+   
+}
+
+.timing{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(164, 152, 152, 0.445);;
+}
+
+.timing p{
+    margin-left:-10px;
+}
+
+
+.nxt-btn{
+    position:absolute;
+    width:20px;
+    font-size: 30px;
+    background:none;
+    border:0px;
+    z-index:5;
+    margin-top:170px;
+    margin-left:1100px;
+    cursor:pointer;
+    
+}
+
+.pre-btn{
+    position:absolute;
+    width:20px;
+    font-size: 30px;
+    background:none;
+    border:0px;
+    z-index:5;
+    margin-top:170px;
+    margin-left:-35px;
+    cursor:pointer;
+
+
+}
+
+.product-image img{
+    width:100%;
+}

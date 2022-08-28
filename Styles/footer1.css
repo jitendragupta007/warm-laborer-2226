@@ -1,0 +1,199 @@
+*{
+
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.footer1{
+width:80vw;
+height:auto;
+margin:auto;
+padding:30px;
+border-top: 2px solid rgba(216, 201, 188, 0.608);
+
+
+}
+
+.footer-logo{
+
+width:120px;
+height:50px;
+
+align-items: center;
+padding:10px;
+margin-top:-57px;
+margin-left:-29px;
+z-index:10;
+background-color:rgb(241, 242, 242);
+}
+
+.footer-details{
+width:100%;
+height:auto;
+display:grid;
+grid-template-columns: repeat(6,1fr);
+margin-top:10px;
+
+
+
+}
+
+.footer-details-1{
+    padding:5px;
+}
+
+.box-2{
+grid-area:1/2/2/4
+
+}
+
+li {
+text-decoration: none;
+list-style: none;
+margin-top:5px;
+color: #1c1c1cdf;
+font-weight: 550;
+
+}
+
+li a{
+    color: #1c1c1c;
+    text-decoration: none;
+    font-size: 12px;
+    opacity:0.7;
+   
+}
+
+.box-2{
+
+    display:grid;
+    position:relative;
+    text-align: center;
+   
+ 
+}
+
+.box-2 h4{
+
+    
+    font-size: 1.5vw;
+    color:#1c1c1c;
+}
+
+.fImg{
+  
+    width:80%;
+    height:30px;
+    position:absolute;
+    right:30px;
+  
+   margin-top:90px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:5px;
+   
+  
+    margin-top:60px;
+    box-sizing: border-box;
+    
+   
+   
+}
+
+.fImg img{
+
+    width:90%;
+    
+   
+}
+
+.box3{
+    padding:8px;
+    text-align: start;
+   text-decoration: none;
+  
+}
+
+.box3 h5,a{
+
+    font-size: 12px;
+    opacity:.9;
+    text-decoration: none;
+    color:black;
+  
+    
+}
+
+.box3 p{
+
+    font-size: 12px;
+    opacity:0.9;
+    text-decoration: none;
+    margin-left:-20px;
+    
+}
+
+.box41{
+    display:grid;
+  line-height: 20px;
+    margin-bottom:20px;
+   
+}
+.box4 p { 
+    font-size:10px;
+    margin-left:-20px;
+   
+}
+.box4 h5{
+
+    opacity:0.9;
+}
+
+.box5 img{
+
+    width:100%;
+
+}
+
+
+
+
+
+
+.footer2{
+
+    width:80vw;
+    height:100%;
+    margin:auto;
+    border-top:1px solid rgba(0, 0, 0, 0.201);
+    padding:10px;
+    margin-bottom:30px;
+    }
+    
+    .footer2 img{
+        width:15px;
+        height:15px;
+        margin-right:5px;
+        margin-top:10px;
+      
+        
+    }
+    
+    .footer2 h5{
+        text-align: center;
+    
+    }
+    
+    .footer2 p{
+        font-size: 12px;
+        line-height:20px;
+        color:#1c1c1c;
+    }
+
+
+
+
+
+
+

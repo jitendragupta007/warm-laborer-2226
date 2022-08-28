@@ -2,6 +2,7 @@
     padding:0px;
     margin:0px;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 #nav{
@@ -13,6 +14,8 @@
     background-color:white;
     position:fixed;
     z-index:20;
+    padding-right:100px;
+    padding-left:100px;
    
 }
 
@@ -20,28 +23,35 @@
      width:200px;
     padding:5px;
     padding:5px;
-    margin-left:-40px;
+    margin-left:-50px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right:0px;
    
 }
 
 #search{
 width:350px;
-padding:10px;
+padding:7px;
 margin-left:-90px;
+background-color:rgba(235, 237, 240, 0.627);
+border: 1px solid rgba(0, 0, 0, 0.374);
+border-radius:7px;
 }
+
 #category,#login,#cart{
 
     width:70px;
     display:flex;
     justify-content: space-between;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 12px;
     align-items: center;
     margin-left:-90px;
     color:rgba(0, 0, 0, 0.793)
 }
 #category{
-    width:90px;
+    width:80px;
 }
 #cart{
 
