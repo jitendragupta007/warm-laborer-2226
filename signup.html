@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="Styles/signup.css">
+    
+</head>
+<body>
+   <div class="form">
+<h1>Fill the details for Sign up</h1>
+<form>
+<input type="text" id="name" placeholder="Enter your name" value=""/>
+<input type="email" id="email" placeholder="Enter your email " value=""/>
+<input type="phone" id="mobile" placeholder="Enter your mobile no. " value=""/>
+<input type="password" id="password" placeholder="Enter Password" value=""/>
+<input class="submit" type="submit" value="submit"/>
+</form>
+</div>
+</body>
+</html>
+
+<script>
+let form=document.querySelector("form").addEventListener("submit", signup);
+
+let signupArr=[];
+
+
+function signup(event){
+    event.preventDefault();
+
+    let obj={
+
+         name:document.querySelector("#name").value,
+         email:document.querySelector("#email").value,
+         number:document.querySelector("#mobile").value,
+         password:document.querySelector("#password").value,
+}
+
+
+if(obj.name===""||obj.email===""||obj.number===""||obj.password===""){
+    alert("Enter all the details");
+    return;
+}
+
+
+signupArr.push(obj);
+
+localStorage.setItem("signupData",JSON.stringify(signupArr));
+alert("Sign up successful")
+window.location.href="index.html";
+}
+
+
+
+
+
+
+
+</script>
+

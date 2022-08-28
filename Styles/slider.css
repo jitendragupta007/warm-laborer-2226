@@ -12,6 +12,8 @@ height:40vh;
 margin-left:150px;
 margin-bottom:50vh;
 position:relative;
+color: #1c1c1c;
+
 
 }
 
@@ -20,6 +22,7 @@ position:relative;
 
 .product-container p,h6{
     font-size: 10px;
+   
     
     }
     .product-card{
@@ -36,7 +39,7 @@ position:relative;
     gap:15px;
     margin-bottom:200px;
     position: relative;
-    margin-top:10px;
+    margin-top:15px;
 }
 .product-thumb{
 
@@ -98,8 +101,19 @@ margin-bottom:10px;
     height:25px;
     margin-left:120px;
     font-size: 1vw;
+    cursor:pointer;
+   
    
 }
+.price-cart button:hover{
+    background-color: rgb(250, 7, 7);
+   
+
+
+}
+
+
+
 
 .timing{
     display:flex;
