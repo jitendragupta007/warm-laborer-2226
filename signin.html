@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+    <link rel="stylesheet" href="Styles/signup.css">
+   
+</head>
+<body>
+
+    <div class="form">
+        <h1>Fill the details for sign in</h1>
+        <form>
+       
+        <input type="email" id="email" placeholder="Enter your email " value=""/>
+        <input type="password" id="password" placeholder="Enter Password" value=""/>
+        <input class="submit" type="submit" value="submit"/>
+        </form>
+        <div class="new">
+            <p> New User? <span><a href="signup.html">Sign up</a></span></p>
+        </div>
+        </div>
+       
+  
+</body>
+</html>
+
+<script>
+
+let form=document.querySelector("form").addEventListener("submit", signup);
+
+let signinArr= JSON.parse(localStorage.getItem("signupData"))||[];
+
+
+function signup(event){
+    event.preventDefault();
+
+    let obj={
+
+         
+         email:document.querySelector("#email").value,
+       
+         password:document.querySelector("#password").value,
+}
+
+
+if(obj.email===""||obj.password===""){
+    alert("Enter all the deatils");
+    return;
+}
+
+signinArr.forEach(function(elem){
+if(obj.email!=elem.email&&obj.password!=elem.password){
+    alert("Enter correct details");
+    return;
+} else{
+    signinArr.push(obj);
+localStorage.setItem("signinData",JSON.stringify(signinArr));
+alert("Sign up successful");
+window.location.href="index.html";
+}
+   });
+}
+</script>

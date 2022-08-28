@@ -5,6 +5,11 @@
     font-family: sans-serif;
 }
 
+body{
+
+    background-color: rgb(248, 245, 245);
+}
+
 #nav{
     width:1400px;
     height:80px;
@@ -47,15 +52,34 @@ border-radius:7px;
     text-decoration: none;
     font-size: 12px;
     align-items: center;
-    margin-left:-90px;
+    margin-left:-70px;
     color:rgba(0, 0, 0, 0.793)
 }
 #category{
     width:80px;
+    padding:20px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:8px;
+}
+
+#login{
+    width:70px;
+    padding:30px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:8px;
+
+   
 }
 #cart{
 
-    width:60px;
+    width:80px;
+    padding:20px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:8px;
+    
 }
 
 #nav-img{
